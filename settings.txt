@@ -1,22 +1,16 @@
 You will need to fill out this file for hand in. 
 
-The bellow is just an example, feel free to disregard this documents contents.
-
-
-Your final settings.txt will look something like this when you are finished:
-
-/////////////////////////////////
 
 Wallpaper 1:
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let FishSize = 1
+let WaveStroke = [88,112,121]
+let WaveLight = [150,191,205]
+let WaveDark = [121,154,166]
+let LilypadStroke = [49,93,76]
+let LilypadFill = [92,173,125]
+let FishyFill = [0,45,68]
+let FishyStroke = [0,99,127]
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -24,23 +18,23 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
 }
-
-/////////////////////////////////
 
 Wallpaper 2:
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+//parameter variables and custom functions are here!
+let FishSize = 0.5
+let WaveStroke = [88,112,121]
+let WaveLight = [150,191,205]
+let WaveDark = [121,154,166]
+let LilypadStroke = [49,93,76]
+let LilypadFill = [92,173,125]
+let FishyFill = [0,45,68]
+let FishyStroke = [0,99,127]
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -48,7 +42,53 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
 }
+
+Wallpaper 3:
+//parameter variables and custom functions are here!
+let FishSize = 1
+let WaveStroke = [194,83,83]
+let WaveLight = [255,114,114]
+let WaveDark = [249,154,154]
+let LilypadStroke = [154,103,42]
+let LilypadFill = [234,190,134]
+let FishyFill = [255,244,230]
+let FishyStroke = [255,165,123]
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+}
+
+Wallpaper 4:
+//parameter variables and custom functions are here!
+let FishSize = 0.5
+let WaveStroke = [194,83,83]
+let WaveLight = [255,114,114]
+let WaveDark = [249,154,154]
+let LilypadStroke = [154,103,42]
+let LilypadFill = [234,190,134]
+let FishyFill = [255,244,230]
+let FishyStroke = [255,165,123]
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES) }
